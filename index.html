@@ -1,104 +1,491 @@
-<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Eat Fresh</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-container container">
+          <input type="checkbox" name="" id="">
+          <div class="hamburger-lines">
+              <span class="line line1"></span>
+              <span class="line line2"></span>
+              <span class="line line3"></span>
+          </div>
+          <ul class="menu-items">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#food">Category</a></li>
+              <li><a href="#food-menu">Menu</a></li>
+              <li><a href="#testimonials">Testimonial</a></li>
+              <li><a href="#contact">Contact</a></li>
+          </ul>
+          <h1 class="logo">EAT FRESH</h1>
+      </div>
+  </nav>
+    <section class="showcase-area" id="showcase">
+      <div class="showcase-container">
+        <h1 class="main-title" id="home">Eat Right Food At The Right Time</h1>
+        <p>You are what you eat, so DON'T be Fast, Cheap, Easy, or Fake</p>
+        <a href="#food-menu" class="btn btn-primary">Menu is here</a>
+      </div>
+    </section>
 
-    <!-- External CSS -->
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    <!-- Start Header Section -->
-    <header class="container-2">
-        <div class="left-div">
-            <h1>
-                <span class="gradient-text">Skip</span> The Diet, <br>
-                Just Eat Healthy<br>
-                With Food Network
-            </h1>
-            <p>Imagine you don't need a diet because we provide <br> healthy and delicious food for you!</p>
-
-            <button>Order Food</button>
+    <section id="about">
+      <div class="about-wrapper container">
+        <div class="about-text">
+          <p class="small">About Us</p>
+          <h2>We've beem making healthy food last for 10 years</h2>
+          <p>
+            With some of the most delicious combinations of ingredients, 
+            there is something for everyone to enjoy. Loved by locals and 
+            traveling foodies alike, now is the perfect time for you to 
+            join us today at our Restaurant.
+          </p>
         </div>
-        <div class="right-div">
-            <img src="./images/shapes/Group 8450.png" alt="">
-            <img src="./images/male/Hero_Image_1.png" alt="">
+        <div class="about-img">
+          <img src="https://i.postimg.cc/mgpwzmx9/about-photo.jpg" alt="food" />
         </div>
-    </header>
-    <!-- End Header Section -->
-
-    <!-- Start Main Section -->
-    <main class="">
-        <!-- Start About Section -->
-        <section class="about">
-            <div class="container">
-                <div class="profile">
-                    <img src="./images/male/Hero_Image_3.png" alt="">
-                </div>
-                <div class="about-me">
-                    <h2>About Me</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum diam orci pretium a
-                        pharetra, feugiat cursus. Dictumst risus, sem egestas odio cras adipiscing vulputate. Nisi,
-                        risus in suscipit non. Non commodo volutpat, pharetra, vel.</p>
-
-                    <button>Contact me</button>
-                </div>
+      </div>
+    </section>
+    
+    <section id="food">
+      <h2>Types of food</h2>
+      <div class="food-container container">
+        <div class="food-type fruite">
+          <div class="img-container">
+            <img src="./images/types of food/fruit.png" alt="error" />
+            <div class="img-content">
+              <h3>fruite</h3>
+              <a
+                href="https://en.wikipedia.org/wiki/Fruit"
+                class="btn btn-primary"
+                target="blank"
+                >learn more</a
+              >
             </div>
-        </section>
-        <!-- End About Section -->
-
-        <!-- Start Recipies Section -->
-        <section class="my-recipies container-2">
-            <h2>My Recipies</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard dummy text ever since the 1500s.</p>
-
-            <div class="recipies">
-                <div class="recipie">
-                    <img src="./images/food/Project_Cover_1.jpg" alt="">
-                    <h3>Recipie Title</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s.</p>
-                </div>
-                <div class="recipie">
-                    <img src="./images/food/Project_Cover_2.png" alt="">
-                    <h3>Recipie Title</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s.</p>
-                </div>
+          </div>
+        </div>
+        <div class="food-type vegetable">
+          <div class="img-container">
+            <img src="./images/types of food/vege.png" alt="error" />
+            <div class="img-content">
+              <h3>vegee</h3>
+              <a
+                href="https://en.wikipedia.org/wiki/Vegetable"
+                class="btn btn-primary"
+                target="blank"
+                >learn more</a
+              >
             </div>
-        </section>
-        <!-- End Recipies Section -->
+          </div>
+        </div>
+        <div class="food-type grin">
+          <div class="img-container">
+            <img src="./images/types of food/grains.png" alt="error" />
+            <div class="img-content">
+              <h3>grin</h3>
+              <a
+                href="https://en.wikipedia.org/wiki/Grain"
+                class="btn btn-primary"
+                target="blank"
+                >learn more</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="food-menu">
+      <h2 class="food-menu-heading">Food Menu</h2>
+      <div class="food-menu-container container">
+        <!--menu-1-->
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="./images/food/f11.png" alt="" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-titile">Croissant</h2>
+            <p>
+              A croissant is a buttery, flaky, viennoiserie pastry 
+            </p>
+            <p class="food-price">Price: &#8377; 149</p>
+          </div>
+        </div>
+       <!--menu-2-->
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img
+              src="./images/food/mutton pepper curry.png"
+              alt=""
+            />
+          </div>
+          <div class="food-description">
+            <h2 class="food-titile">Kali Mirch Gosht</h2>
+            <p>
+              If you are looking to prepare some tasty dishes for the grand day, 
+              you must check out this.
+            </p>
+            <p class="food-price">Price: &#8377; 569</p>
+          </div>
+        </div>
+        <!--menu-3-->
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="./images/food/f9.png" alt="" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-titile">Rice Noodles</h2>
+            <p>
+              A type of food made from unleavened dough extruded into long strings.
+            </p>
+            <p class="food-price">Price: &#8377; 99</p>
+          </div>
+        </div>
+        <!--menu-4-->
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="./images/food/f54.png" alt="" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-titile">Biryani</h2>
+            <p>
+              It is made with Indian spices, rice, and usually some type of meat,
+               or in some cases without any meat
+            </p>
+            <p class="food-price">Price: &#8377; 299</p>
+          </div>
+        </div>
+        <!--menu-5-->
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="./images/food/f56.png" alt="" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-titile">Kharcho soup</h2>
+            <p>
+              Georgian soup containing beef, rice and chopped walnuts .
+            </p>
+            <p class="food-price">Price: &#8377; 399</p>
+          </div>
+        </div>
+        <!--menu-6-->
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="./images/food/f50.png" alt="" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-titile">Hara bhara kabab</h2>
+            <p>
+              popular North Indian snack  made with plenty of leafy
+               greens vegetables like spinach, coriander leaves 
+            </p>
+            <p class="food-price">Price: &#8377; 99</p>
+          </div>
+        </div>
+        <!--menu-7-->
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="./images/food/barley soup.png" alt="" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-titile">Barley soup</h2>
+            <p>
+              winter collection of delicious and satiating vegetarian soups.
+            </p>
+            <p class="food-price">Price: &#8377; 349</p>
+          </div>
+        </div>
+        <!--menu-8-->
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="./images/food/f53.png" alt="" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-titile">Chicken 65</h2>
+            <p>
+              Deep-fried chicken dish attributed to red chillies.
+            </p>
+            <p class="food-price">Price: &#8377; 249</p>
+          </div>
+        </div>
+        <!--menu-9-->
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="./images/food/f52.png" alt="" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-titile">Dahi Chawal</h2>
+            <p>
+              South Indian dish made with precooked rice,Curd,herbs & tempering spices.
+            </p>
+            <p class="food-price">Price: &#8377; 199</p>
+          </div>
+        </div>
+        <!--menu-10-->
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="./images/food/f14.png" alt="" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-titile">Chicken shawarma </h2>
+            <p>
+              A heavy meal, made of meat, crisp vegetables and bread.
+            </p>
+            <p class="food-price">Price: &#8377; 299</p>
+          </div>
+        </div>
+        <!--menu-11-->
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="./images/food/f5.png" alt="" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-titile">Fruit salad</h2>
+            <p>
+              Fruit salad is a dish consisting of various kinds of fruit.
+            </p>
+            <p class="food-price">Price: &#8377; 149</p>
+          </div>
+        </div>
+        <!--menu-12-->
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="./images/food/f2.png" alt="" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-titile">waffle</h2>
+            <p>
+              These waffels wakeup your energy.
+            </p>
+            <p class="food-price">Price: &#8377; 199</p>
+          </div>
+        </div>
+        <!--menu-13-->
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="./images/food/f3.png" alt="" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-titile">Dessert pancake</h2>
+            <p>
+              They are often sweet and resemble a cake
+            </p>
+            <p class="food-price">Price: &#8377; 250</p>
+          </div>
+        </div>
+        <!--menu-14-->
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="./images/food/f22.png" alt="" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-titile">Milkshake</h2>
+            <p>
+              A milkshake is a sweet beverage made by blending milk,
+               ice cream, and flavorings
+            </p>
+            <p class="food-price">Price: &#8377; 399</p>
+          </div>
+        </div>
+        <!--menu-15-->
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="./images/food/f24.png" alt="" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-titile">Ice pop</h2>
+            <p>
+              An ice pop is a liquid-based frozen snack on a stick.
+            </p>
+            <p class="food-price">Price: &#8377; 89</p>
+          </div>
+        </div>
+        <!--menu-16-->
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="./images/food/f26.png" alt="" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-titile">Chocolate board</h2>
+            <p>
+              Chocolate is a food made from roasted and ground cacao seed 
+            </p>
+            <p class="food-price">Price: &#8377; 199</p>
+          </div>
+        </div>
+        <!--menu-17-->
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="./images/food/f18.png" alt="" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-titile">Lemonade</h2>
+            <p>
+              A sweetened lemon-flavored beverage.
+            </p>
+            <p class="food-price">Price: &#8377; 79</p>
+          </div>
+        </div>
+        <!--menu-18-->
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="./images/food/f20.png" alt="" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-titile">Pine apple juice</h2>
+            <p>
+              The natural liquid from the pulp of the pineapple.
+            </p>
+            <p class="food-price">Price: &#8377; 99</p>
+          </div>
+        </div>
 
-        <!-- Start Stats Section -->
-        <section class="stats container-2">
-            <div class="stat">
-                <h3>700k</h3>
-                <p>YouTube Subscribers</p>
-            </div>
-            <div class="stat">
-                <h3>2.4m</h3>
-                <p>Instagram Followers</p>
-            </div>
-            <div class="stat">
-                <h3>100k</h3>
-                <p>Dribble Shot Likes</p>
-            </div>
-        </section>
-        <!-- End Stats Section -->
-    </main>
-    <!-- End Main Section -->
 
-    <!-- Start Footer Section -->
-    <footer class="footer">
-        <h3><span class="gradient-text">Eat</span> Fresh</h3>
-        <p>Eat healthy to live healthy. Live healthy to live happy.</p>
+      </div>
+    </section>
+    <section id="testimonials">
+      <h2 class="testimonial-title">What Our Customers Say</h2>
+      <div class="testimonial-container container">
+        <div class="testimonial-box">
+          <div class="customer-detail">
+            <div class="customer-photo">
+              <img src="./images/male/male-photo1.jpg" alt="" />
+              <p class="customer-name">John lee</p>
+            </div>
+          </div>
+          <div class="star-rating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+          <p class="testimonial-text">
+            I recently had the pleasure of dining at your restaurant and was 
+            incredibly impressed by the attention to detail and the quality 
+            of the dishes that were served. It was clear that a great deal
+             of care and thought had gone into the preparation of each dish,
+              and I was blown away by the flavors and presentation of the food.
+          </p>
+         
+        </div>
+        <div class="testimonial-box">
+          <div class="customer-detail">
+            <div class="customer-photo">
+              <img
+                src="./images/male/female-photo1.png"
+                alt=""
+              />
+              <p class="customer-name">Georgia sen</p>
+            </div>
+          </div>
+          <div class="star-rating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+          <p class="testimonial-text">
+            I recently had the pleasure of dining at your restaurant and the
+             restaurant was situated in a bustling neighborhood that was
+              easy to access and provided plenty of parking options.Thank
+               you for providing such a wonderful dining destination
+          </p>
+         
+        </div>
+        <div class="testimonial-box">
+          <div class="customer-detail">
+            <div class="customer-photo">
+              <img src="./images/male/male-photo3.png" alt="" />
+              <p class="customer-name">Harvey Roy</p>
+            </div>
+          </div>
+          <div class="star-rating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+          <p class="testimonial-text">
+            I recently had the pleasure of dining at your restaurant and I 
+            was thoroughly impressed by the infrastructure of your restaurant
+             and would highly recommend it to anyone looking for a dining
+              experience that combines style and functionality ,Thank you.
+            
+          </p>
+         
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="contact-container container">
+        <div class="contact-img">
+          <img src="https://i.postimg.cc/1XvYM67V/restraunt2.jpg" alt="" />
+        </div>
+
+        <div class="form-container">
+          <h2>Contact Us</h2>
+          <input type="text" placeholder="Your Name" />
+          <input type="email" placeholder="E-Mail" />
+          <textarea
+            cols="30"
+            rows="6"
+            placeholder="Type Your Comments"
+          ></textarea>
+          <a href="#" class="btn btn-primary">Submit</a>
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+      <h2>Restraunt &copy; all rights reserved</h2>
     </footer>
-    <!-- End Footer Section -->
-</body>
+  </body>
 
+  <!-- 
+    .................../ JS Code for smooth scrolling /...................... -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      // Add smooth scrolling to all links
+      $("a").on("click", function (event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $("html, body").animate(
+            {
+              scrollTop: $(hash).offset().top,
+            },
+            800,
+            function () {
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            }
+          );
+        } // End if
+      });
+    });
+    
+  </script>
 </html>
